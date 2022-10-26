@@ -6,6 +6,8 @@ import Navbar from '../components/Navbar';
 import Rightbar from '../components/Rightbar';
 import Sidebar from '../components/Sidebar';
 
+import './home.css';
+
 function Home() {
   return (
     <>

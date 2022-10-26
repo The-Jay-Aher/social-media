@@ -1,0 +1,19 @@
+.share{
+    width: 100%;
+    height: 170px;
+    /* border-radius: 10%; */
+    background-color: darkgray;
+    box-shadow: 0px 10px -14px 14px #FFF;
+}
+
+.shareIcon{
+    color: black !important;
+}
+
+.shareProfile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
