@@ -1,8 +1,10 @@
-import React from 'react'
-import Feed from '../components/feed'
-import Navbar from '../components/Navbar'
-import Rightbar from '../components/rightbar'
-import Sidebar from '../components/sidebar'
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Feed from '../components/Feed';
+import Navbar from '../components/Navbar';
+import Rightbar from '../components/Rightbar';
+import Sidebar from '../components/Sidebar';
 
 function Home() {
   return (
