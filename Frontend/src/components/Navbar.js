@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import { Search, Person } from "@material-ui/icons";
+import { Search, Person } from "@mui/icons-material";
 
 function Navbar() {
   return (
@@ -11,8 +11,8 @@ function Navbar() {
 
       <div className="navbarCenter">
         <div className='searchbar'>
-          {/* <Search /> */}
-          <span className="material-symbols-outlined">search</span>
+          <Search />
+          {/* <span className="material-symbols-outlined">search</span> */}
           <input placeholder='Search for awesomeness' className="searchInput" />
         </div>
       </div>
