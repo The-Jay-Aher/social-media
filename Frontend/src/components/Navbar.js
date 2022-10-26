@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import { Search, Person } from "@mui/icons-material";
+import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 
 function Navbar() {
   return (
@@ -11,35 +11,35 @@ function Navbar() {
 
       <div className="navbarCenter">
         <div className='searchbar'>
-          <Search />
-          {/* <span className="material-symbols-outlined">search</span> */}
+          <Search className="searchIcon"/>
           <input placeholder='Search for awesomeness' className="searchInput" />
         </div>
       </div>
 
       <div className="navbarRight">
         <div className="links">
-          <span className="link">Home</span>
-          <span className="link">Timeline</span>
+          <span className="navbarLink">Home</span>
+          <span className="navbarLink">Timeline</span>
         </div>
-        <div className="icon">
-          <div className="iconItem">
-            <div>
-              <span className="material-symbols-outlined">person</span>
+        <div>
+          <div className="navbarIcon">
+            <div className="iconItem"> 
+              <Person />
               <span className="badge">1</span>
             </div>
 
-            <div>
-              <span className="material-symbols-outlined">chat</span>
+            <div className="iconItem">
+              <Chat />
               <span className="badge">1</span>
             </div>
 
-            <div>
-              <span className="material-symbols-outlined">notifications</span>
+            <div className="iconItem"> 
+              <Notifications />
               <span className="badge">1</span>
             </div>
           </div>
         </div>
+        <img src="https://www.svgrepo.com/show/13656/user.svg" alt="default-Img" className="navImg" />
       </div>
     </div>
   )
