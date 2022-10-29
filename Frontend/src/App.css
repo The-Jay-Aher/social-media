@@ -37,7 +37,7 @@ body {
   margin: 0px;
 }
 
-.side {
+.side { 
   display: grid;
   height: 100vh;
   overflow: hidden;

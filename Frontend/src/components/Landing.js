@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Landing() { 
   return (
-    <div>
+    <div> 
 
       <div>
         <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
