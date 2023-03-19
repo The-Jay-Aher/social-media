@@ -7,6 +7,7 @@ function Rightbar() {
   return (
     <div className='rightbar'>
       <div className="rightbarWrapper">
+      {profile ? <ProfileRightbar /> : <HomeRightbar />}
         <div className="birthdayCont">
           <img className="birthdayImg" src="https://res.cloudinary.com/dcprg19es/image/upload/v1667073894/Social%20Media/Default_TECS_Img_eyaq3j.png" />
           <span className='birthdayTxt'>
