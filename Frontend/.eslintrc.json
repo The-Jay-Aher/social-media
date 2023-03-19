@@ -1,5 +1,6 @@
 {
     "extends": [
-        "plugin:react/recommended"
+        "plugin:react/recommended" ,
+        "@salesforce/eslint-config-lwc/recommended"
     ]
 }
