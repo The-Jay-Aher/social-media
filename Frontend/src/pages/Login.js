@@ -7,7 +7,6 @@ function Login() {
   return (
     <div className="login">
     <div className="loginWrapper">
-
       <div className="loginLeft">
         <div className="loginLeftContent">
           <h3 className="brand-logo" style={{fontSize: "5rem"}}>TECSocial.</h3>
@@ -20,8 +19,8 @@ function Login() {
           <input placeholder="Email" className="loginInput" />
           <input placeholder="Password" className="loginInput" />
           <button className="loginButton">Log In</button>
-          <span className="loginForgot">Forgot Password?</span>
-          <button className="loginRegisterButton"><Link to="/register">Create a New Account</Link></button>
+          {/* <span className="loginForgot">Forgot Password?</span> */}
+          <a className="loginRegister" data-replace="Register!"><span style={{color: "black"}}><Link to="/register">New user?</Link></span></a>
         </div>
       </div>
     </div>
