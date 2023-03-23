@@ -5,6 +5,8 @@ import "./Login.css";
 
 function Login() {
   return (
+    <>
+    
     <div className="login">
     <div className="loginWrapper">
       <div className="loginLeft">
@@ -25,6 +27,7 @@ function Login() {
       </div>
     </div>
   </div>
+  </>
     )
 }
 
