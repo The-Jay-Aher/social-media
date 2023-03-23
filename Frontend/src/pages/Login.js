@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import Navbar from '../components/Navbar';
 import "./Login.css";
 
@@ -20,7 +20,7 @@ function Login() {
           <input placeholder="Password" className="loginInput" />
           <button className="loginButton">Log In</button>
           {/* <span className="loginForgot">Forgot Password?</span> */}
-          <a className="loginRegister" data-replace="Register!"><span style={{color: "black"}}><Link to="/register">New user?</Link></span></a>
+          <a href='/register' className="loginRegister" data-replace="Register!"><span style={{color: "black"}}>New user?</span></a>
         </div>
       </div>
     </div>
