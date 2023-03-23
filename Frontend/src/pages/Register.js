@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 import "./Register.css";
 
 function Register() {
@@ -9,7 +9,7 @@ function Register() {
     <div className="loginWrapper">
       <div className="loginLeft">
         <div className="loginLeftContent">
-        <h3 className="brand-logo" style={{fontSize: "5rem"}}>TECSocial.</h3>
+        <h3 className="brand-logo" style={{fontSize: "5rem"}}><Link to={"/"}>TECSocial.</Link></h3>
         <span className="loginDesc" style={{marginLeft: "20px"}}> Where every student has a voice!</span>
       </div>
       </div>

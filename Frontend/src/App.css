@@ -88,5 +88,7 @@ body {
 }
 
 .b1 {
-  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+  font-family: "Lobster";
+  text-decoration: none !important;
 }
