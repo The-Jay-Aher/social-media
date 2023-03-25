@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import Feed from '../components/Feed';
 import Navbar from '../components/Navbar';
@@ -19,7 +18,7 @@ function Home() {
         <Rightbar />
       </div>
     </>
-  )
+  );
 }
 
 export default Home

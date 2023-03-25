@@ -12,7 +12,6 @@ export default function Landing() {
             </a>
 
             <div className="flex md:order-2">
-              {/* <a href='/home' className='b1'><button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></a> */}
               <Link to="/login" className='b1'><button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></Link>
               <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
@@ -28,9 +27,6 @@ export default function Landing() {
                 <li>
                   <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
                 </li>
-                {/* <li>
-                  <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                </li> */}
                 <li>
                   <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                 </li>
@@ -39,22 +35,6 @@ export default function Landing() {
           </div>
         </nav>
       </div> 
-
-      {/* <div className="navbar-fixed">
-        <nav className="transparent z-depth-0">
-          <div className="nav-wrapper">
-            <div className="row">
-              <div className="col s12">
-                <a href="#" className="brand-logo" >TECSocial.</a>
-                <ul className="right hide-on-med-and-down">
-                  
-                  <li><a href='/home' className='b1'>Get Started</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div> */}
 
       <div className='side' id='left-side'>
         <h2 className='title'>
@@ -75,9 +55,9 @@ export default function Landing() {
   )
 }
 
-// const left = document.getElementById("left-side");
-// const handleMove = e => {
-//   left.style.width = `${e.clientX / window.innerWidth * 100}%`;
-// }
-// document.onmousemove = e => handleMove(e);
-// document.ontouchmove = e => handleMove(e.touches[0]);
+const left = document.getElementById("left-side");
+const handleMove = e => {
+  left.style.width = `${e.clientX / window.innerWidth * 100}%`;
+}
+document.onmousemove = e => handleMove(e);
+document.ontouchmove = e => handleMove(e.touches[0]);

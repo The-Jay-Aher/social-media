@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { Feed, Chat, PeopleAlt, Bookmarks, Work, EventNote, Newspaper} from "@mui/icons-material";
 
 import './sidebar.css';
@@ -11,19 +11,19 @@ function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Feed className="sidebarIcon" />
-            <span className='sidebarText'>Feed</span>
+            <span className='sidebarText'>Announcements</span>
           </li>
           <li className="sidebarListItem">
-            <Chat className="sidebarIcon" />
-            <span className='sidebarText'>Chat</span>
+            <Bookmarks className="sidebarIcon" />
+            <span className='sidebarText'>Resources</span>
           </li>
           <li className="sidebarListItem">
             <PeopleAlt className="sidebarIcon" />
             <span className='sidebarText'>Groups</span>
           </li>
           <li className="sidebarListItem">
-            <Bookmarks className="sidebarIcon" />
-            <span className='sidebarText'>Bookmarks</span>
+            <Chat className="sidebarIcon" />
+            <span className='sidebarText'>Chat</span>
           </li>
           <li className="sidebarListItem">
             <Work className="sidebarIcon" />
@@ -31,7 +31,7 @@ function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <EventNote className="sidebarIcon" />
-            <span className='sidebarText'>Event</span>
+            <span className='sidebarText'>Events</span>
           </li>
           <li className="sidebarListItem">
             <Newspaper className="sidebarIcon" />

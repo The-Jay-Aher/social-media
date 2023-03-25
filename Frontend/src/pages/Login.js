@@ -19,7 +19,9 @@ function Login() {
         <div className="loginBox">
           <input placeholder="Email" className="loginInput" />
           <input placeholder="Password" className="loginInput" />
-          <button className="loginButton">Log In</button>
+          <a href='/home'>
+            <button className="loginButton">Log In</button>
+          </a>
           {/* <span className="loginForgot">Forgot Password?</span> */}
           <a href='/register' className="loginRegister" data-replace="Register!"><span style={{color: "black"}}>New user?</span></a>
         </div>
