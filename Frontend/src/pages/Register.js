@@ -20,7 +20,7 @@ function Register() {
           <input placeholder="Email" className="loginInput" />
           <input placeholder="Password" className="loginInput1" />
           <input placeholder="Password Again" className="loginInput2" />
-          <button className="loginButton"><Link to={"/home"}>Sign Up</Link></button>
+          <button className="regButton"><Link to={"/home"}>Sign Up</Link></button>
           <a href='/login' className="loginRegister" data-replace="Login now!"><span style={{color: "black"}}>Registered?</span></a>
         </div>
       </div>

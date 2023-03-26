@@ -1,8 +1,10 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-import { Feed, Chat, PeopleAlt, Bookmarks, Work, EventNote, Newspaper} from "@mui/icons-material";
+import { Forum, PeopleAlt, AutoStories, Work, EventNote, Newspaper, Campaign, CalendarMonth} from "@mui/icons-material";
+
 
 import './sidebar.css';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -10,32 +12,38 @@ function Sidebar() {
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className="sidebarListItem">
-            <Feed className="sidebarIcon" />
+            <Campaign className="sidebarIcon" />
             <span className='sidebarText'>Announcements</span>
           </li>
           <li className="sidebarListItem">
-            <Bookmarks className="sidebarIcon" />
-            <span className='sidebarText'>Resources</span>
+            <CalendarMonth className="sidebarIcon" />
+            <span className='sidebarText'>Academic Calendar</span>
+          </li>
+          <li className="sidebarListItem">
+            <Forum className="sidebarIcon" />
+            <span className='sidebarText'>Forums</span>
+          </li>
+          <li className="sidebarListItem">
+            <AutoStories className="sidebarIcon" />
+            <Link to={"/resources"}>
+              <span className='sidebarText'>Resources</span>
+            </Link>
           </li>
           <li className="sidebarListItem">
             <PeopleAlt className="sidebarIcon" />
-            <span className='sidebarText'>Groups</span>
-          </li>
-          <li className="sidebarListItem">
-            <Chat className="sidebarIcon" />
-            <span className='sidebarText'>Chat</span>
+            <span className='sidebarText'>Student organizations</span>
           </li>
           <li className="sidebarListItem">
             <Work className="sidebarIcon" />
-            <span className='sidebarText'>Jobs</span>
+            <span className='sidebarText'>Job and internship</span>
           </li>
           <li className="sidebarListItem">
             <EventNote className="sidebarIcon" />
-            <span className='sidebarText'>Events</span>
+            <span className='sidebarText'>Campus Events</span>
           </li>
           <li className="sidebarListItem">
             <Newspaper className="sidebarIcon" />
-            <span className='sidebarText'>News</span>
+            <span className='sidebarText'>Campus News</span>
           </li>
         </ul>
         <button className="sidebarButton">Show more</button>

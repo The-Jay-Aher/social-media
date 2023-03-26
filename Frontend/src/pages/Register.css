@@ -46,7 +46,7 @@
       padding-left: 20px;
   }
   
-  .loginButton{
+  .regButton{
       height: 60px;
       width: 60%;
       border-radius: 30px !important;
@@ -57,9 +57,10 @@
       font-weight: bold;
       cursor: pointer;
       align-self: center;
+      color: white;
   }
 
- .loginButton:hover{
+ .regButton:hover{
   transition: 1s ease;
   color: black;
   border-style: solid !important;
