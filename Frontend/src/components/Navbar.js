@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='navbarContainer'>
       <div className="navbarLeft">
-        <a href="#" className="brand-logo" >TECSocial.</a>
+        <a href="/home" className="brand-logo" >TECSocial.</a>
       </div>
 
       <div className="navbarCenter">
