@@ -19,7 +19,7 @@
 }
 
 .uploadContainer{
-    height: 110px;
+    height: 170px;
     width: 100%;
     padding: 10px;
     border: 2px solid;
@@ -48,4 +48,44 @@
     color: black;
     border-style: solid !important;
     background-image: linear-gradient(to right bottom, #f84f39, #f64845, #f34350, #ef3f5a, #e93d64, #e33c6c, #dc3d73, #d53e7a, #cc4081, #c24387, #b8468c, #ad4990);
+}
+
+.opt{
+    color: black;
+}
+
+#dropdown{
+    border: 2px solid black !important;
+    border-radius: 10px;
+    align-items: center;
+    height: 35px;
+    width: 297px;
+    margin-top: 20px;
+}
+
+.resBox{
+    align-self: center;
+    height: 153px;
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--red2);
+    align-self: center;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.9;
+}
+
+.resImg{
+    float: right;
+    height: 150px;
+    width: 270px;
+    margin-top: -86px;
+    border-radius: 0 10px 10px 0;
+}
+
+.resContent{
+    font-family: "Lobster";
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
