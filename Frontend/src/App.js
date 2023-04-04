@@ -6,6 +6,10 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
 import Resources from './components/Resources';
+import Studentorg from './components/Studentorg';
+import Academiccal from './components/Academiccal';
+import Announcement from './components/Announcement';
+import Campusevent from './components/Campusevent';
 
 import './App.css';
 
@@ -21,6 +25,10 @@ function App() {
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/resources" element={<Resources />} />
+          <Route exact path="/studentorg" element={<Studentorg />} />
+          <Route exact path="/academiccal" element={<Academiccal />} />
+          <Route exact path="/announcement" element={<Announcement />} />
+          <Route exact path="/campusevent" element={<Campusevent />} />
         </Routes>
     </BrowserRouter>
     </div>
