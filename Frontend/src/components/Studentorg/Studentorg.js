@@ -12,7 +12,7 @@ function Studentorg() {
 	function StudentorgScript() {
 		if (moreDescriptionRef.current.style.display === 'none') {
 			moreDescriptionRef.current.style.display = 'block';
-		} else {
+		} else { 
 			moreDescriptionRef.current.style.display = 'none';
 		}
 	}
@@ -25,14 +25,24 @@ function Studentorg() {
 				<Sidebar />
 				<div className='res'>
 					<div className='resHead'>Student Organisations</div>
-					<div className='description'>
-						<p onClick={StudentorgScript}>Short description</p>
+					
+					<div className='description resBox'>
+						{/* <div onClick={StudentorgScript} style={{color: "black"}} className='resContent'>Entrepreneurship Cell</div>
+						<img
+								className='resImg' style={{marginTop: "-96px", marginRight: "-10px"}}
+								src='https://res.cloudinary.com/dcprg19es/image/upload/v1680890327/Social%20Media/entrepreneurship_gklrux.jpg'
+								alt='Entrepreneurship_Image'
+							/>
 						<p ref={moreDescriptionRef} className='more-description'>
-							Long description that is initially hidden
-						</p>
+							This organization is aimed at fostering the spirit of entrepreneurship among students. 
+							It provides a platform for students to explore their business ideas, learn about 
+							entrepreneurship, and interact with successful entrepreneurs. <br/>
+							<button href='https://ternaengg.ac.in/entrepreneurship/' className='Sbutton'>Learn More</button>
+						</p> */}
+						
 					</div>
-				</div>
 
+				</div>
 				<Rightbar />
 			</div>
 		</div>
